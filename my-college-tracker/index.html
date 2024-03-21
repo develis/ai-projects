@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Ciência da Computação</h1>
+
+    <h2>Horas</h2>
+    <ul>
+        <li>Optativas: <span id="optativasHours">PLACEHOLDER</span></li>
+        <li>Obrigatórias: <span id="obrigatoriasHours">PLACEHOLDER</span></li>
+        <li>Atividades Complementares: <span id="atividadesComplementaresHours">PLACEHOLDER</span></li>
+    </ul>
+
+    <h2>Matérias</h2>
+    <h3>Semestre 1</h3>
+    <ul>
+        <li class="completed">MATA59 - Programação Orientada a Objetos</li>
+        <li class="current">MATA60 - Estruturas de Dados</li>
+        <li class="considering">MATA61 - Cálculo I</li>
+        <li class="not-taken">MATA62 - Lógica Matemática</li>
+    </ul>
+
+    <h3>Semestre 2</h3>
+    <ul>
+        <li class="not-taken">MATA63 - Cálculo II</li>
+        <li class="not-taken">MATA64 - Álgebra Linear</li>
+        <li class="not-taken">MATA65 - Física I</li>
+        <li class="not-taken">MATA66 - Química</li>
+    </ul>
+
+    <h2>Optativas</h2>
+    <ul id="optativasList">
+        <li>MATA67 - Inteligência Artificial</li>
+        <li>MATA68 - Redes de Computadores</li>
+        <li>MATA69 - Banco de Dados</li>
+    </ul>
+
+    <h3>Adicionar matéria optativa</h3>
+    <input type="text" id="optativaInput">
+    <button onclick="addOptativa()">Adicionar</button>
+
+    <h3>Editar horas</h3>
+    <label for="optativasInput">Optativas:</label>
+    <input type="text" id="optativasInput" onchange="updateHours('optativasHours', this.value)">
+    <button onclick="updateHours('optativasHours', document.getElementById('optativasInput').value)">Atualizar
+        Optativas</button>
+    <br>
+    <label for="obrigatoriasInput">Obrigatórias:</label>
+    <input type="text" id="obrigatoriasInput" onchange="updateHours('obrigatoriasHours', this.value)">
+    <button onclick="updateHours('obrigatoriasHours', document.getElementById('obrigatoriasInput').value)">Atualizar
+        Obrigatórias</button>
+    <br>
+    <label for="atividadesComplementaresInput">Atividades Complementares:</label>
+    <input type="text" id="atividadesComplementaresInput"
+        onchange="updateHours('atividadesComplementaresHours', this.value)">
+    <button
+        onclick="updateHours('atividadesComplementaresHours', document.getElementById('atividadesComplementaresInput').value)">Atualizar
+        Atividades Complementares</button>
+</body>
+<script src="script.js"></script>
+
+</html>

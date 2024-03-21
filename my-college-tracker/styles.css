@@ -1,0 +1,12 @@
+.completed {
+    color: green;
+}
+.current {
+    color: blue;
+}
+.considering {
+    color: orange;
+}
+.not-taken {
+    color: grey;
+}
