@@ -14,11 +14,9 @@ The my-college-tracker project was created to address a personal pain point. I u
 
 ## [Project 2: song-recommendation](https://develis.github.io/ai-projects/song-recommendation/)
 
-The song-recommendation project is a simple website that uses URL parameters to recommend a song. By providing specific parameters in the URL, the website generates a song recommendation based on those parameters. This project utilizes HTML, JavaScript, and CSS. Some of the features include:
+The song-recommendation project is a simple website that uses URL parameters to recommend a song. By providing specific parameters in the URL, the website generates a song recommendation based on those parameters. This project utilizes HTML, JavaScript, and CSS. The main and only feature is:
 
 - Customizable song recommendations based on URL parameters
-- Integration with music APIs to fetch song data
-- User-friendly interface for easy song exploration
 
 Now, to change the embedded song on the page, you need to modify the page URL to include the song URL as a parameter (songUrl). For example, if the page URL is https://develis.github.io/ai-projects/song-recommendation/, you can change the embedded song on the page to the example song URL by modifying the page URL to https://develis.github.io/ai-projects/song-recommendation?songUrl=https://open.spotify.com/embed/track/2TI5GBkbrrFtZRM5v1heeb?utm_source=generator&theme=0.
 
