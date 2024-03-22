@@ -18,7 +18,7 @@ The song-recommendation project is a simple website that uses URL parameters to 
 - Integration with music APIs to fetch song data
 - User-friendly interface for easy song exploration
 
-Now, to change the embedded song on the page, you need to modify the page URL to include the song URL as a parameter. For example, if the page URL is https://develis.github.io/ai-projects/song-recommendation/, you can change the embedded song on the page to the example song URL by modifying the page URL to https://develis.github.io/ai-projects/song-recommendation?songName=https://open.spotify.com/embed/track/2TI5GBkbrrFtZRM5v1heeb?utm_source=generator&theme=0.
+Now, to change the embedded song on the page, you need to modify the page URL to include the song URL as a parameter (songUrl). For example, if the page URL is https://develis.github.io/ai-projects/song-recommendation/, you can change the embedded song on the page to the example song URL by modifying the page URL to https://develis.github.io/ai-projects/song-recommendation?songUrl=https://open.spotify.com/embed/track/2TI5GBkbrrFtZRM5v1heeb?utm_source=generator&theme=0.
 
 ## License
 
