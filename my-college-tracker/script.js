@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = () => {
     loadOptativas();
 
     var hoursIds = ['optativasHours', 'obrigatoriasHours', 'atividadesComplementaresHours'];
@@ -160,7 +160,7 @@ function addEventListeners() {
 function createRemoveButton(optativa, row) {
     const button = document.createElement("button");
     button.textContent = "Remover";
-    button.addEventListener('click', function () {
+    button.addEventListener('click', () => {
         removeOptativaFromLocalStorage(optativa);
         row.parentNode.removeChild(row);
     });

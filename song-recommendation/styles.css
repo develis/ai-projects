@@ -1,0 +1,32 @@
+body {
+    background-color: #F4B9D4;
+}
+
+div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(3) {
+    display: flex;
+    justify-content: right;
+}
+
+p:nth-child(1) {
+    background-color: #E1619C;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 100px;
+}
