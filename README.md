@@ -2,6 +2,8 @@
 
 Welcome to the ai-projects repository! This repository is a collection of projects that I have been working on while studying Generative AI. I primarily use tools like GitHub Copilot, GitHub Copilot Chat, Gemini, etc to develop solutions for personal problems.
 
+> P.S: I'm NOT a front end developer!
+
 ## [Project 1: my-college-tracker](https://develis.github.io/ai-projects/my-college-tracker/)
 
 The my-college-tracker project was created to address a personal pain point. I used to track my progress in college using a Canva page, but I wanted a more efficient way to manage my subjects and keep track of the remaining hours needed to complete my degree. This project utilizes HTML, JavaScript, and CSS, with data being stored in localStorage. Some of the functionalities are:
