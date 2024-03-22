@@ -12,4 +12,4 @@ The my-college-tracker project was created to address a personal pain point. I u
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
