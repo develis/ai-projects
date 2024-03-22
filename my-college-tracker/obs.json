@@ -1,0 +1,182 @@
+[
+    {
+        "codigo": "MATA01",
+        "nome": "GEOMETRIA ANALÍTICA ",
+        "semestre": 1
+    },
+    {
+        "codigo": "MATA02",
+        "nome": "CÁLCULO A ",
+        "semestre": 1
+    },
+    {
+        "codigo": "MATA37",
+        "nome": "INTRODUÇÃO À LÓGICA DE PROGRAMAÇÃO ",
+        "semestre": 1
+    },
+    {
+        "codigo": "MATA38",
+        "nome": "PROJETO DE CIRCUITOS LÓGICOS ",
+        "semestre": 1
+    },
+    {
+        "codigo": "MATA39",
+        "nome": "SEMINÁRIOS DE INTRODUÇÃO AO CURSO ",
+        "semestre": 1
+    },
+    {
+        "codigo": "MATA42",
+        "nome": "MATEMÁTICA DISCRETA I ",
+        "semestre": 1
+    },
+    {
+        "codigo": "MATA07",
+        "nome": "ÁLGEBRA LINEAR A ",
+        "semestre": 2
+    },
+    {
+        "codigo": "MATA40",
+        "nome": "ESTRUTURAS DE DADOS E ALGORITMOS I ",
+        "semestre": 2
+    },
+    {
+        "codigo": "MATA48",
+        "nome": "ARQUITETURA DE COMPUTADORES ",
+        "semestre": 2
+    },
+    {
+        "codigo": "MATA57",
+        "nome": "LABORATÓRIO DE PROGRAMAÇÃO I ",
+        "semestre": 2
+    },
+    {
+        "codigo": "MATA95",
+        "nome": "COMPLEMENTOS DE CÁLCULO ",
+        "semestre": 2
+    },
+    {
+        "codigo": "MATA97",
+        "nome": "MATEMÁTICA DISCRETA II ",
+        "semestre": 2
+    },
+    {
+        "codigo": "FISA75",
+        "nome": "ELEMENTOS DO ELETROMAGNETISMO E DE CIRCUITOS ELÉTRICOS ",
+        "semestre": 3
+    },
+    {
+        "codigo": "MAT236",
+        "nome": "MÉTODOS ESTATÍSTICOS ",
+        "semestre": 3
+    },
+    {
+        "codigo": "MATA47",
+        "nome": "LÓGICA PARA COMPUTAÇÃO ",
+        "semestre": 3
+    },
+    {
+        "codigo": "MATA49",
+        "nome": "PROGRAMAÇÃO DE SOFTWARE BÁSICO ",
+        "semestre": 3
+    },
+    {
+        "codigo": "MATA50",
+        "nome": "LINGUAGENS FORMAIS E AUTÔMATOS ",
+        "semestre": 3
+    },
+    {
+        "codigo": "MATA55",
+        "nome": "PROGRAMAÇÃO ORIENTADA A OBJETOS ",
+        "semestre": 3
+    },
+    {
+        "codigo": "FCHC45",
+        "nome": "METODOLOGIA E EXPRESSÃO TÉCNICO-CIENTÍFICA ",
+        "semestre": 4
+    },
+    {
+        "codigo": "MATA51",
+        "nome": "TEORIA DA COMPUTAÇÃO ",
+        "semestre": 4
+    },
+    {
+        "codigo": "MATA52",
+        "nome": "ANÁLISE E PROJETO DE ALGORITMOS ",
+        "semestre": 4
+    },
+    {
+        "codigo": "MATA58",
+        "nome": "SISTEMAS OPERACIONAIS ",
+        "semestre": 4
+    },
+    {
+        "codigo": "MATA61",
+        "nome": "COMPILADORES ",
+        "semestre": 4
+    },
+    {
+        "codigo": "MATA68",
+        "nome": "COMPUTADOR, ÉTICA E SOCIEDADE ",
+        "semestre": 4
+    },
+    {
+        "codigo": "MATA53",
+        "nome": "TEORIA DOS GRAFOS ",
+        "semestre": 5
+    },
+    {
+        "codigo": "MATA54",
+        "nome": "ESTRUTURAS DE DADOS E ALGORITMOS II ",
+        "semestre": 5
+    },
+    {
+        "codigo": "MATA59",
+        "nome": "REDES DE COMPUTADORES I ",
+        "semestre": 5
+    },
+    {
+        "codigo": "MATA62",
+        "nome": "ENGENHARIA DE SOFTWARE I ",
+        "semestre": 5
+    },
+    {
+        "codigo": "MATE12",
+        "nome": "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO A ",
+        "semestre": 5
+    },
+    {
+        "codigo": "MATA60",
+        "nome": "BANCO DE DADOS ",
+        "semestre": 6
+    },
+    {
+        "codigo": "MATA64",
+        "nome": "INTELIGÊNCIA ARTIFICIAL ",
+        "semestre": 6
+    },
+    {
+        "codigo": "MATA65",
+        "nome": "COMPUTAÇÃO GRÁFICA ",
+        "semestre": 6
+    },
+    {
+        "codigo": "MATA88",
+        "nome": "FUNDAMENTOS DE SISTEMAS DISTRIBUÍDOS ",
+        "semestre": 6
+    },
+    {
+        "codigo": "MATE11",
+        "nome": "ENGENHARIA DE SOFTWARE II-A ",
+        "semestre": 6
+    },
+    {
+        "codigo": "MATA66",
+        "nome": "PROJETO FINAL DE CURSO I ",
+        "semestre": 7
+    },
+    {
+        "codigo": "MATA67",
+        "nome": "PROJETO FINAL DE CURSO II ",
+        "semestre": 8
+    }
+]
