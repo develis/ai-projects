@@ -14,7 +14,7 @@
         <li>Obrigatórias: <span id="obrigatoriasHours">PLACEHOLDER</span></li>
         <li>Atividades Complementares: <span id="atividadesComplementaresHours">PLACEHOLDER</span></li>
     </ul>
-    
+
     <h3>Editar horas</h3>
     <label for="optativasInput">Optativas:</label>
     <input type="text" id="optativasInput" onchange="updateHours('optativasHours', this.value)">
@@ -35,17 +35,17 @@
 
     <h2>Optativas</h2>
 
-    <button id="deleteAllButton">Apagar todas as optativas</button>
+    <button id="deleteAllButton" onclick="handleButtonDeleteAllOptativas()">Apagar todas as optativas</button>
     <div id="confirmModal" style="display: none;">
         <p>Tem certeza de que deseja apagar todas as optativas?</p>
-        <button id="confirmButton">Sim</button>
-        <button id="cancelButton">Não</button>
+        <button id="confirmButton" onclick="handleButtonConfirmModal()">Sim</button>
+        <button id="cancelButton" onclick="handleButtonCancelModal()">Não</button>
     </div>
 
     <h3>Adicionar matéria optativa</h3>
     <input type="text" id="optativaInput">
     <button onclick="addOptativa()">Adicionar</button>
-    
+
     <table id="optativasList">
         <tr>
             <th>Matéria</th>
