@@ -4,3 +4,9 @@ window.onload = () => {
     const songUrl = urlParams.get('songUrl') || defaultSongUrl;
     document.querySelector('iframe').src = songUrl;
 };
+
+const currentDate = new Date();
+const formattedDate = currentDate.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const dateElement = document.querySelector('div p');
+dateElement.innerHTML = `${formattedDate},<br> te dedico essa música:`;
